@@ -10,7 +10,7 @@
 		C4B7299A1D6B5AC0002E96DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B729991D6B5AC0002E96DB /* main.m */; };
 		C4B7299D1D6B5AC0002E96DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B7299C1D6B5AC0002E96DB /* AppDelegate.m */; };
 		C4B729A01D6B5AC0002E96DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B7299F1D6B5AC0002E96DB /* ViewController.m */; };
-		C4B729A31D6B5AC0002E96DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B729A11D6B5AC0002E96DB /* Main.storyboard */; };
+		C4B729A31D6B5AC0002E96DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B729A11D6B5AC0002E96DB /* Main.storyboard */; settings = {ASSET_TAGS = (inputField, ); }; };
 		C4B729A51D6B5AC0002E96DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B729A41D6B5AC0002E96DB /* Assets.xcassets */; };
 		C4B729A81D6B5AC0002E96DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B729A61D6B5AC0002E96DB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -105,6 +105,9 @@
 		C4B7298D1D6B5AC0002E96DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					inputField,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Prashant Tiwari";
 				TargetAttributes = {

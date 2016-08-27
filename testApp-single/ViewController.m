@@ -9,10 +9,17 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+{
+    
+}
+@property (weak, nonatomic) IBOutlet UITextField *inputField;
 
 @end
 
+
 @implementation ViewController
+
+@synthesize inputField;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,6 +29,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)Enter {
+ 
+    NSString *enteredString = self.inputField.text;
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Wait" message:@"Are you sure you want to delete this.  This action cannot be undone" delegate:self cancelButtonTitle:@"Delete" otherButtonTitles:@"Cancel", nil];
+    [alert show];
 }
 
 @end
